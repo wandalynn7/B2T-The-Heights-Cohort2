@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+	<script type="text/javascript">
+		//First list the colors variable
+		//Then  order  array of colors by position var o
+
+		var colors =['Blue','Green','Red','Orange','Violet','Indigo','Yellow']
+		var o = ['th','st','nd','rd']
+		 
+			var colors =['Blue','Green','Red','Orange','Violet','Indigo','Yellow']
+		var o = ['th','st','nd','rd']
+		 
+		for (var i = 0; i < colors.length; i++){
+			if(i >= 3){
+				console.log(i + 1 + o[0] + ' choice is ' + colors[i]);
+			}
+			else {
+				console.log(i + 1 + o[i + 1] + ' choice is ' + colors[i]);
+			}
+		}		
+	</script>
+	</body>
+</html>
