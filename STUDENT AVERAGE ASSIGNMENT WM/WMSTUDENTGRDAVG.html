@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Student Average Letter Grade</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			//Find the student's average
+			   //Add the student's grades,then
+			   //Divide the total by number of grades 
+			//Convert the average grade from num to letter grade
+			//Use 'if' statements and console log the results 
+			
+		var grades=[80, 77, 88, 95,68];
+		var y= 0;
+		var avgGrade = ("");
+		for(var i = 0; i < grades.length; i++){
+			y += grades[i];
+		}
+		avgGrade = y/grades.length 
+
+			if(avgGrade < 60){
+				console.log(avgGrade = "Student average is " + "F")
+			}
+			else if(avgGrade <= 70){
+				console.log(avgGrade =  "Student average is " + "D")
+			}
+			else if(avgGrade <= 79){
+				console.log(avgGrade = "Student average is " + "C") 
+			}
+			else if(avgGrade <= 89){
+				console.log(avgGrade = "Student average is " + "B")
+			}
+			else if(avgGrade <= 100){
+				console.log(avgGrade = "Student average is " + "A") 
+			}
+				
+		</script>
+			
+
+	</body>
+</html>
