@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Form Display Name</title>
+	</head>
+	<body>
+		<hi id= "display"></h1>
+		<form> 	
+		  First name:<input type ="text" id = "fname" value = "Curtis">
+		  <br>
+		  Last name: <input type = "text" id = "lname" value = "Jackson">
+		  <br>
+		 <input type = "button" value = "submit" onclick = "getFormValue()">
+		</form> 
+		
+		<script type="text/javascript">
+			function getFormValue(){
+				//create 2 variables for last name and 1st name
+				// Use Dom to display full name on form
+					var ln  = document.getElementById('lname').value;
+					var fn  = document.getElementById('fname').value;
+					var fullName = 'Hello ' + fn + ' ' + ln 
+				document.getElementById("display").innerHTML = fullName;
+				}
+		</script>
+	</body>
+	</html>
