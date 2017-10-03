@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DAY OF THE WEEK</title>
+	</head>
+	<body>
+		<hi id = "display"></hi>
+		<h1 id = "text"></h1>
+	
+	<script type="text/javascript">
+			//Get day of the week 
+			//Use a switch statement (0 to 6)
+			//begin with Sunday 
+			//Use console log to display day of week
+			//use DOM to display results and welcome msg on webpage
+		
+		document.getElementById("display").innerHTML=
+		" Welcome Today is "  
+		switch(new Date().getDay()){
+		case 0: 
+			console.log('Serene Sunday');
+			document.getElementById("text").innerHTML="Serene Sunday" 
+		  	 "Serene Sunday" 
+			break;
+		case 1: 
+			console.log('Marvelous Monday');
+			document.getElementById("text").innerHTML="Marvelous Monday" 
+		   	 "Marvelous Monday" 
+		 
+			break;
+		case 2:
+			console.log('Terrific Tuesday')
+			document.getElementById("text").innerHTML="Terrific Tuesday"
+			"Terrific Tuesday"
+			break;
+		case 3:
+			console.log('Wonderful Wednesday');
+			document.getElementById("text").innerHTML="Wonderful Wednesday"
+			break;
+		case 4:
+			console.log('Thriving Thursday')
+			document.getElementById("text").innerHTML= "Thriving Thursday"
+			break;
+		case 5:
+			console.log('Fantastic Friday')
+			document.getElementById("text").innerHTML="Fantastic Friday"
+			break;
+		case 6:
+			console.log('Splendid Saturday')
+			document.getElementById("text").innerHTML="Splendid Saturday"
+			}
+
+	</script>	
+	</body>
+</html>
