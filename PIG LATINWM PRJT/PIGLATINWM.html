@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>CONVERT ENGLISH TO PIG LATIN</title>
+	</head>
+	<body>
+		<h2 id = "text" ></h2>
+		<script type="text/javascript">
+			// Get a word from the user using Prompt()
+			//Convert the word to pig Latin
+			//get 1st char of the str, and move it to the end of the str
+			//then get the str with the 1st char at the end 
+			//add "ay" to end of the str
+			//Then display  result on the webpage
+			var engwrd = prompt("Ener Word");								
+			var pgltwrd = engwrd.slice(1, engwrd.length) + engwrd.charAt(0) + "ay";
+			document.getElementById("text").innerHTML = pgltwrd;
+
+
+		</script>
+	</body>
+</html>
